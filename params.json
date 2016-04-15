@@ -1,0 +1,6 @@
+{
+  "name": "Zsywd",
+  "tagline": "",
+  "body": "###欢迎到GitHub上的页面。这种自动页面生成器是为所有的项目的漂亮网页的最简单方法。笔者在这里您的网页内容[使用GitHub风格降价]（https://guides.github.com/features/mastering-markdown/），选择由设计师精心设计了一个模板，并发布。生成的页面后，您可以在本地检查出新的`GH-pages`分支。如果您使用GitHub上桌面，只需同步您的资料库，你会看到新的分支。###设计模板我们已经制作了一些帅气的模板供您使用。来吧，然后点击“继续布局”通过他们来浏览。您可以轻松地回到发布之前编辑您的网页。发布网页后，您可以重新访问页面生成，并切换到另一个主题。您的网页内容将被保留。###手动创建的网页如果您不想使用自动生成器，按下一个名为`GH-pages`到存储库手动创建一个页面分支。除了支持常规的HTML内容，GitHub的网页支持化身，一个简单的博客知道静态网站生成器。杰基尔可以很容易地，而不必将其横跨每个页面复制创建站点范围页眉和页脚。它还提供智能支持博客和其他高级模板功​​能。###作者和贡献者可以@mention一个GitHub的用户名来生成一个链接到他们的个人资料。由此产生的``<A>元素将链接到贡献者的GitHub的个人资料。例如：2007年，克里斯Wanstrath为此设计（@defunkt），PJ Hyett如此（@pjhyett），汤姆普雷斯顿 - 维尔纳（@mojombo）成立GitHub上。###支持或联系经与网页的麻烦？看看我们的[文件]（https://help.github.com/pages）或[接触的支持（https://github.com/contact），我们会帮你整理出来。\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
