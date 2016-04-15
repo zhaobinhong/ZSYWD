@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>密码修改</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="Hovace">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css"/>
+
+    <!-- Calendar Styling  -->
+    <link rel="stylesheet" href="assets/css/plugins/calendar/calendar.css"/>
+
+    <!-- Fonts  -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,300' rel='stylesheet' type='text/css'>
+
+    <!-- Base Styling  -->
+    <link rel="stylesheet" href="assets/css/app/app.v1.css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body data-ng-app>
+
+
+<!-- Preloader -->
+<div class="loading-container">
+    <div class="loading">
+        <div class="l1">
+            <div></div>
+        </div>
+        <div class="l2">
+            <div></div>
+        </div>
+        <div class="l3">
+            <div></div>
+        </div>
+        <div class="l4">
+            <div></div>
+        </div>
+    </div>
+</div>
+<!-- Preloader -->
+
+
+<aside class="left-panel">
+
+    <div class="user text-center">
+        <img src="assets/images/avtar/user.jpg" class="img-circle" alt="...">
+        <h4 class="user-name">管理员</h4>
+
+    </div>
+
+
+    <nav class="navigation">
+        <ul class="list-unstyled">
+            <li class="has-submenu active"><a href="#"><i class=" fa fa-user"></i> <span
+                    class="nav-label">个人中心</span></a>
+                <ul class="list-unstyled">
+                    <li class="active"><a href="mima.html">修改密码</a></li>
+
+                </ul>
+            </li>
+            <li class="has-submenu"><a href="#"><i class="fa fa-credit-card"></i> <span
+                    class="nav-label">卡片管理</span></a>
+                <ul class="list-unstyled">
+                    <li><a href="zhika.html">卡片制卡</a></li>
+                    <li><a href="qianfa.html">卡片签发</a></li>
+                    <li><a href="faka.html">发卡</a></li>
+                    <li><a href="kapianxinxichaxun.html">卡片信息查询</a></li><!--用户信息 证书信息 《状态默认正常 虚拟卡信息 -->
+                    <!--<li><a href="gerenxinxi.html">详细信息</a></li>-->
+                </ul>
+            </li>
+            <li class="has-submenu"><a href="#"><i class="fa fa-dollar"></i> <span class="nav-label">卡片交易</span></a>
+                <ul class="list-unstyled">
+                    <li><a href="chongzhi.html">充值</a></li>
+                    <li><a href="chaxun.html">查询消费</a></li>
+                    <li><a href="jiaoyimingxi.html">交易明细</a></li>
+                    <li><a href="xiaopiao.html">打印小票</a></li>
+                </ul>
+            </li>
+            <li class="has-submenu"><a href="#"><i class=" fa fa-bar-chart"></i> <span
+                    class="nav-label">运行监控</span></a>
+                <ul class="list-unstyled">
+                    <li><a href="realTimeData.html">实时数据</a></li>
+                    <li><a href="hei.html">黑名单</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+</aside>
+<!-- Aside Ends-->
+
+<section class="content">
+
+
+    <header class="top-head container-fluid">
+        <button type="button" class="navbar-toggle pull-left">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <form role="search" class="navbar-left app-search pull-left hidden-xs">
+            <input type="text" placeholder="输入关键字..." class="form-control form-control-circle">
+        </form>
+
+        <nav class=" navbar-default hidden-xs" role="navigation">
+
+        </nav>
+
+        <ul class="nav-toolbar">
+
+            <li class="dropdown"><a href="#" data-toggle="dropdown"><i class="fa fa-bell-o"></i><span
+                    class="badge">2</span></a>
+                <div class="dropdown-menu arrow pull-right md panel panel-default arrow-top-right notifications">
+                    <div class="panel-heading">
+                        提醒
+                    </div>
+
+                    <div class="list-group">
+
+                        <a href="#" class="list-group-item">
+                            系统消息
+                        </a>
+
+
+                        <a href="#" class="list-group-item">
+                            <div class="media">
+                                <span class="label label-danger media-object img-circle pull-left">警告</span>
+                                <div class="media-body">
+                                    <h5 class="media-heading">你已被拉入黑名单</h5>
+                                </div>
+                            </div>
+                        </a>
+
+
+                    </div>
+
+                </div>
+            </li>
+
+        </ul>
+    </header>
+
+
+    <div class="warper container-fluid">
+
+        <div class="page-header">
+            <h1>密码修改
+                <small> ...</small>
+            </h1>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">修改</div>
+            <div class="panel-body">
+
+                <div class="input-group">
+                                <span class="input-group-btn">
+                                <button class="btn btn-info" type="button">旧密码</button>
+                                </span>
+                    <input class="form-control" id="showData" type="password" placeholder="请输入原始密码">
+                </div>
+                <hr class="xs">
+
+                <div class="input-group">
+                                <span class="input-group-btn">
+                                <button class="btn btn-success" type="button">新密码</button>
+                                </span>
+                    <input class="form-control" type="password" value="" placeholder="请输入新密码">
+                </div>
+                <hr class="xs">
+
+                <div class="input-group">
+                                <span class="input-group-btn">
+                                <button class="btn btn-success" type="button">确认密码</button>
+                                </span>
+                    <input class="form-control" type="password" placeholder="确认密码">
+                </div>
+
+
+                <hr>
+
+                <div class="row" style="padding: 20px 0">
+                    <div class="col-lg-4 col-lg-offset-4">
+                        <button class="btn btn-primary btn-block" type="button">修改</button>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <!-- Warper Ends Here (working area) -->
+
+
+    <footer class="container-fluid footer">
+        版权 &copy; 2016 <a href="http://www.cnpc.com.cn/" target="_blank">中国石油</a>
+        <a href="#" class="pull-right scrollToTop"><i class="fa fa-chevron-up"></i></a>
+    </footer>
+
+
+</section>
+<!-- Content Block Ends Here (right box)-->
+
+<!-- JQuery v1.9.1 -->
+<script src="assets/js/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="assets/js/plugins/underscore/underscore-min.js"></script>
+<!-- Bootstrap -->
+<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+
+<!-- Globalize -->
+<script src="assets/js/globalize/globalize.min.js"></script>
+
+<!-- NanoScroll -->
+<script src="assets/js/plugins/nicescroll/jquery.nicescroll.min.js"></script>
+
+<!-- Chart JS -->
+<script src="assets/js/plugins/DevExpressChartJS/dx.chartjs.js"></script>
+<script src="assets/js/plugins/DevExpressChartJS/world.js"></script>
+<!-- For Demo Charts -->
+<script src="assets/js/plugins/DevExpressChartJS/demo-charts.js"></script>
+<script src="assets/js/plugins/DevExpressChartJS/demo-vectorMap.js"></script>
+
+<!-- Sparkline JS -->
+<script src="assets/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+<!-- For Demo Sparkline -->
+<script src="assets/js/plugins/sparkline/jquery.sparkline.demo.js"></script>
+
+<!-- Angular JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.14/angular.min.js"></script>
+<!-- ToDo List Plugin -->
+<script src="assets/js/angular/todo.js"></script>
+
+
+<!-- Data Table -->
+<script src="assets/js/plugins/datatables/jquery.dataTables.js"></script>
+<script src="assets/js/plugins/datatables/DT_bootstrap.js"></script>
+<script src="assets/js/plugins/datatables/jquery.dataTables-conf.js"></script>
+
+
+<!-- Calendar JS -->
+<script src="assets/js/plugins/calendar/calendar.js"></script>
+<!-- Calendar Conf -->
+<script src="assets/js/plugins/calendar/calendar-conf.js"></script>
+
+
+<!-- Custom JQuery -->
+<script src="assets/js/app/custom.js" type="text/javascript"></script>
+
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-56821827-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</body>
+</html>
